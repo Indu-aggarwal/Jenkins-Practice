@@ -13,6 +13,7 @@ import org.junit.jupiter.api.*;
         @Test
         public void test2(){
             System.out.println("Testing my first code");
+            Assertions.fail();
         }
         public void test3(){
             System.out.println("Testing Jenkins graph");
